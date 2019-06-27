@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "utf-8">
+    <title>accomodations</title>
+    <link rel="stylesheet" href="atlantic.css">
+    <link rel="icon" href="images/favicon.ico" type="image/gif">
+</head>
+    
+<body onLoad='getCurrentDate()'>
+<div id = "wrapper">
+<header><br>
+    <h1>Atlantic Trails Resort</h1>
+</header>
+<nav>
+    <br>
+    <ul><li><a href = "index.html">Home</a></li>
+    <li><a href = "accommodations.html">Accommodations</a></li>
+    <li><a href = "activities.html">Activities</a></li>
+    <li><a href = "reservations.html">Reservations</a></li></ul>
+    
+    <div id = "contact">
+                               Atlantic Trails Resort<br>
+                               1210 Atlantic Trails Way<br>
+                               Andover, Maine 04226<br><br>
+        
+                               <span class = "mob"><a href= "tel:888-555-5555">888-555-5555<br></a></span>
+                               <span class ="others">888-555-5555<br></span>
+                               <a href ="#" class = "linkz">www.atlantictrails.com</a>
+    </div>
+</nav>
+<div id = "activities-image"></div>
+<main>
+    <h2>Activities at Atlantic Trails</h2>
+
+    <h3>Hiking</h3>
+    <p>Atlantic Trails Resort has 5 miles of hiking trails and is adjacent to a state park. Go it alone or join<br>
+       one of our gudied hikes. The table below lists some of our guided hikes and their departure times<br>
+       from the main office. Sign-up in the office for any or all of the hikes during your stay at Atlantic Trails.<br>
+       Our guides will point out many interesting features and landmarks during your hike.</p>
+    
+    <table>
+    <tr>
+        <th>Tour<br>Start<br>Time</th>
+        <th>Description</th>
+        <th>Guide</th>
+        <th>Time</th>
+    </tr>
+    <tr>
+        <td>6:00 am</td>
+        <td style = "text-align: left;">2 mile hike on the upper ridge - watch the sun rise.</td>
+        <td><a>Stephanie</a></td>
+        <td>2<br>hours</td>
+    </tr>
+    <tr>
+        <td>8:00 am</td>
+        <td style = "text-align: left;">4 mile hike in the state park. Transportation<br>leaves from main office.</td>
+        <td><a>Roger</a></td>
+        <td>3<br>hours</td>
+    </tr>
+    <tr>
+        <td>1:00 pm</td>
+        <td style = "text-align: left;">6 mile hike over the full trail and the beach<br>head. Some light climbing.</td>
+        <td><a>Stephanie</a><br>or <a>Heidi</a></td>
+        <td>4.5<br>hours</td>
+    </tr>
+        
+    </table>
+    <h3>Kayaking</h3>
+    
+    <p>Ocean kayaks are available for guest use. The table provides a summary of our kayaks. Be sure of<br>
+       your kayaking skills. Check the links to identify your skill level. If you have any more questions, please<br>
+       contact Dave in the main office.</p>
+    
+    <table>
+    <tr>
+        <th>Kayak<br>Type</th>
+        <th>Description</th>
+        <th>Skill Level</th>
+    </tr>
+    <tr>
+        <td>Sea</td>
+        <td style = "text-align: left;">Long, flat bottom, cargo area for your personal<br>effects.</td>
+        <td><a>Low to<br>moderate</a></td>
+    </tr>
+    <tr>
+        <td>Surf</td>
+        <td style = "text-align: left;">Shorter, more maneuverable than the sea kayak.</td>
+        <td><a>Moderate to<br>high</a></td>
+    </tr>
+    <tr>
+        <td>White<br>Water</td>
+        <td style = "text-align: left;">Very short, rounded hull, very robust. Highly<br>maneuverable.</td>
+        <td><a>Expert</a></td>
+    </tr>
+        
+    </table>
+    
+    <h3>Bird Watching</h3>
+    
+    <p>While anytime is a good time for bird watching at Atlantic Trails, we offer guided birdwatching trips at<br>
+       sunrise several times a week. The table below lists some of these trips. See the main office for more<br> 
+       details.</p>
+
+    <table>
+    <tr>
+        <th>Tour Start Time</th>
+        <th>Description</th>
+        <th>Commonly Seen<br>Birds</th>
+        <th>Guide</th>
+    </tr>
+    <tr>
+        <td style = "text-align: left;">5:30 am Tuesdays<br>Only - September thru<br>November</td>
+        <td style = "text-align: left;">1.5 mile hike on the<br>upper ridge. Lasts<br>about 1 hour</td>
+        <td><a>Green Herons,<br>Northern Harriers,<br>Ospreys</a></td>
+        <td><a>Stephanie</a></td>
+    </tr>
+    <tr>
+        <td style = "text-align: left;">6:00 am Saturday and<br>Sunday Only - March<br>thru June</td>
+        <td style = "text-align: left;">3 mile hike on the<br>beach. Lasts about 2<br>hours</td>
+        <td><a>Cormorants,<br>Canadian Geese,<br>Least Sandpiper</a></td>
+        <td><a>Heidi</a></td>
+    </tr>
+    <tr>
+        <td style = "text-align: left;">5:30 am Thursdays<br>Only - June thru<br>August</td>
+        <td style = "text-align: left;">3 mile hike in the<br>State Park. Some<br>light climbing</td>
+        <td><a>Lesser Yellowlegs,<br>Willet, Black-bellied<br>Plover</a></td>
+        <td><a>Stephanie</a><br>or <a>Heidi</a></td>
+    </tr>
+        
+    </table>
+    
+<br>
+<footer>
+    Copyright &copy; 2018 Atlantic Trails Resort
+    <br>
+    <a href = "#">Michael@Pham.com</a><br>
+     <script>
+			function getCurrentDate(){
+				var curDate=new Date();
+				document.getElementById("showDate").innerHTML = curDate.toString();
+			}
+        document.write("Today is: ");
+		</script>
+    <!--Here date and time will display-->
+    <span id="showDate"></span>
+
+</footer>
+</main>
+</div>
+</body>
+</html>

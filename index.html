@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "utf-8">
+    <title>index</title>
+    <link rel="stylesheet" href="atlantic.css">
+    <link rel="icon" href="images/favicon.ico" type="image/gif">
+</head>
+
+<body onLoad='getCurrentDate()'>
+<div id = "wrapper">
+<header>
+    <br>
+    <h1>Atlantic Trails Resort</h1>
+</header>
+<nav>
+    <br>
+    <ul><li><a href = "index.html">Home</a></li>
+    <li><a href = "accommodations.html">Accommodations</a></li>
+    <li><a href = "activities.html">Activities</a></li>
+    <li><a href = "reservations.html">Reservations</a></li></ul>
+    
+    <div id = "contact">
+                               Atlantic Trails Resort<br>
+                               1210 Atlantic Trails Way<br>
+                               Andover, Maine 04226<br><br>
+                            
+                               <span class = "mob"><a href= "tel:888-555-5555">888-555-5555<br></a></span>
+                               <span class = "others">888-555-5555<br></span>
+                               <a href ="#" class = "linkz">www.atlantictrails.com</a>
+    </div>
+</nav>
+<div id = "main-image"></div>
+<main>
+    <h2>Enjoy Nature in Luxury</h2>
+    <p>
+        <span class = "resort">Atlantic Trails Resort</span> offers a special lodging experience on the rugged Altantic North Coast of Maine.<br>Relax in serenity with panoramic views of the Atlantic Ocean.
+    </p>
+    <ul>
+        <li>Private bunglows with decks overlooking the ocean</li>
+        <li>Activities lodge with fireplace and gift shop</li>
+        <li>Nightly fine dining at the Overlook Cafe</li>
+        <li>Heated outdoor pool and whirlpool</li>
+        <li>Guided hiking tours of the pine forests</li>
+    </ul>
+
+<br>    
+<footer>
+    Copyright &copy; 2018 Atlantic Trails Resort
+    <br>
+    <a href = "#">Michael@Pham.com</a><br>
+    <script>
+			function getCurrentDate(){
+				var curDate=new Date();
+				document.getElementById("showDate").innerHTML = curDate.toString();
+			}
+        document.write("Today is: ");
+		</script>
+    <!--Here date and time will display-->
+    <span id="showDate"></span>
+
+</footer>
+</main>
+</div>
+</body>
+</html>
+

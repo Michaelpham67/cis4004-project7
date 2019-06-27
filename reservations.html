@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "utf-8">
+    <title>index</title>
+    <link rel="stylesheet" href="atlantic.css">
+    <link rel="icon" href="images/favicon.ico" type="image/gif">
+</head>
+
+<body onLoad='getCurrentDate()'>
+<div id = "wrapper">
+<header>
+    <br>
+    <h1>Atlantic Trails Resort</h1>
+</header>
+<nav>
+    <br>
+    <ul><li><a href = "index.html">Home</a></li>
+    <li><a href = "accommodations.html">Accommodations</a></li>
+    <li><a href = "activities.html">Activities</a></li>
+    <li><a href = "reservations.html">Reservations</a></li></ul>
+    
+    <div id = "contact">
+                               Atlantic Trails Resort<br>
+                               1210 Atlantic Trails Way<br>
+                               Andover, Maine 04226<br><br>
+                            
+                               <span class = "mob"><a href= "tel:888-555-5555">888-555-5555<br></a></span>
+                               <span class = "others">888-555-5555<br></span>
+                               <a href ="#" class = "linkz">www.atlantictrails.com</a>
+    </div>
+</nav>
+<main>
+    <h2>Reservations for Atlantic Trails Resort</h2>
+    <h3>Contact Us Today To Make Your Reservations!</h3>
+    <p>
+        Required field are marked with an asterisk *
+    </p>    
+    <form method = "post" action = http://cs.ucf.edu/~markl/atlanticformreport.php>
+    <fieldset>
+    <ul id ="nobullets">
+        <li>
+            <label for="firstname">*First Name:</label>
+            <input type ="text" id="firstname" name="firstname" class="large"
+            required="required">
+        </li>
+        <li>
+            <label for="lastname">*Last Name:</label>
+            <input type ="text" id="lastname" name="lastname" class="large"
+            required="required">
+        </li>  
+        <li>
+            <label for="email">*Email:</label>
+            <input type ="email" id="email" name="email" class="large"
+            required="required">
+        </li>  
+        <li>
+            <label for="tel">Phone:</label>
+            <input type ="tel" id="tel" name="tel" class="large">
+        </li>  
+        <li>
+            <label for="date">Date:</label>
+            <input type="date"  id="date" name="date" class="large">
+        </li>  
+        <li>
+            <label for="time">Time:</label>
+            <input type ="time" id="time" name="time" class="large">
+        </li> 
+        <li>
+            <label for="guests">Number of Guests:</label>
+            <input type ="number" id="guests" name="guests" class="large">
+        </li>  
+        <li>
+            <label for="comments">*Comments:</label>
+            <textarea id="comments" name="comments" class="large" 
+            required="required"></textarea><br>
+        </li> 
+    </ul>        
+        <span style ="margin-left: 20.5%;font-size: 14px; color: green;">Message limit 64 characters</span><br><br>
+        <input type="submit" class="create_reservation" value="Submit"/>    
+    </fieldset>
+    </form>
+
+<br>
+<footer>
+    Copyright &copy; 2018 Atlantic Trails Resort
+    <br>
+    <a href = "#">Michael@Pham.com</a><br>
+     <script>
+			function getCurrentDate(){
+				var curDate=new Date();
+				document.getElementById("showDate").innerHTML = curDate.toString();
+			}
+        document.write("Today is: ");
+		</script>
+    <!--Here date and time will display-->
+    <span id="showDate"></span>
+
+</footer>
+</main>
+</div>
+</body>
+</html>
+

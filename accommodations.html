@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "utf-8">
+    <title>accomodations</title>
+    <link rel="stylesheet" href="atlantic.css">
+    <link rel="icon" href="images/favicon.ico" type="image/gif">
+</head>
+    
+<body onLoad='getCurrentDate()'>
+<div id = "wrapper">
+<header><br>
+    <h1>Atlantic Trails Resort</h1>
+</header>
+<nav>
+    <br>
+    <ul><li><a href = "index.html">Home</a></li>
+    <li><a href = "accommodations.html">Accommodations</a></li>
+    <li><a href = "activities.html">Activities</a></li>
+    <li><a href = "reservations.html">Reservations</a></li></ul>
+    
+    <div id = "contact">
+                               Atlantic Trails Resort<br>
+                               1210 Atlantic Trails Way<br>
+                               Andover, Maine 04226<br><br>
+                            
+                               <span class = "mob"><a href= "tel:888-555-5555">888-555-5555<br></a></span>
+                               <span class ="others">888-555-5555<br></span>
+                               <a href ="#" class = "linkz">www.atlantictrails.com</a>
+    </div>
+</nav>
+<div id = "accommodations-image"></div>
+<main>
+    <h2>The Accommodations at Atlantic Trails</h2>
+    
+    <dl><dt>What is a bungalow?</dt>
+    
+    <dd>Our luxury bungalows are permanent structures four feet off the ground. Each bungalow has<br>canvas walls, a wooden floor, and a roof dome that can be opened.
+    </dd>
+    <dt>How are the bungalows furnished?</dt>
+    
+    <dd>Each bungalow is furnished with a queen-size bed with down quilt and gas-fired stove. The<br>luxury camping experience also includes electricity and a sink with hot and cold running water.<br>Shower and restroom facilities are located in the lodge.
+    </dd>
+    <dt>What should I bring?</dt>
+    
+    <dd>Bring a sense of adventure and some time to relax! Most guests also pack comfortable walking<br>shoes and plan to dress for changing weather with layers of clothing.
+    </dd>
+    </dl>
+
+<footer>
+    Copyright &copy; 2018 Atlantic Trails Resort
+    <br>
+    <a href = "#">Michael@Pham.com</a><br>
+     <script>
+			function getCurrentDate(){
+				var curDate=new Date();
+				document.getElementById("showDate").innerHTML = curDate.toString();
+			}
+        document.write("Today is: ");
+		</script>
+    <!--Here date and time will display-->
+    <span id="showDate"></span>
+
+</footer>
+</main>
+</div>    
+</body>
+</html>
